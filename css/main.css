@@ -1,0 +1,59 @@
+:root{
+    --primary-text-color:rgba(0, 0, 0, 0.8);
+    --secondary-text-color: #000000;
+    --accent-color: #18A0FB;
+    --background-color: #ffffff;
+    --secondary-background-color: #F5F5F5;
+}
+body{background-color: var(--background-color);
+    color: rgba(0,  0,  0, 0.8);
+
+}
+ul{
+    list-style: none;
+}
+ .logo{
+    color: var(--secondary-text-color);}
+   
+
+}
+.logo:hover{
+    color: var(--accent-color);
+}
+.site-nav .link{
+    color: var(--accent-color);
+}
+.site-nav .link:hover, .site-nav .link:focus{
+    color: var(--secondary-text-color);
+}
+/* hero */
+.hero-title{
+    color: var(--secondary-text-color);
+}
+
+/* .section{ */
+
+
+.section-title{
+    color: var(--secondary-text-color);
+}
+.feature-list .title{
+color: var(--secondary-text-color);
+}
+.feature-list .link{
+    color: var(--accent-color);
+}
+.work-list .title{
+    color: var(--secondary-text-color);
+}.button{
+    color: var(--secondary-text-color);
+    background-color: var(--background-color);    
+}
+.button.primary{
+color: var(--background-color);
+background-color: var(--accent-color);
+}
+.button.secondary{
+color: var(--accent-color);
+background-color: var(--background-color);
+}

@@ -14,6 +14,8 @@ line-height: 1.67;
 }
 ul{
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
  .logo{
     color: var(--secondary-text-color);
@@ -26,6 +28,10 @@ ul{
 .logo:hover{
     color: var(--accent-color);
 }
+/* page header */
+.page-header{
+   
+}
 .site-nav .link{
     color: var(--accent-color);
     
@@ -33,13 +39,26 @@ font-weight: 500;
 font-size: 15px;
 line-height: 1.2;
 text-decoration: none;
-
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1440px;
+outline: 1px solid teal;
 }
 .site-nav .link:hover, .site-nav .link:focus{
     color: var(--secondary-text-color);
 }
-/* hero */
+.hero{
+    text-align: center;
+ 
+}
 .hero-title{
+    margin-top: 0px;
+    margin-bottom: 40px;
+
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 56px;
@@ -47,17 +66,34 @@ text-decoration: none;
     text-align: center;
 }
 
-/* .section{ */
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
+.section.no-padding{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 
 .section-title{
+    margin-top: 0px;
+    margin-bottom: 60px;
+
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 48px;
     line-height: 1.5;
     text-align: center;
 }
+.title{
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
 .section-description {
+    margin-top: 0px;
+    margin-bottom: 80px;
     font-size: 36px;
     line-height: 1.39;
 }
@@ -68,23 +104,48 @@ font-weight: 700;
 font-size: 24px;
 line-height: 1.5;
 }
+.work-list .item{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.work-list > .item:nth-child(2n){
+    background-color: var(--secondary-background-color);
+}
+
+.feature-list p{
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
 .feature-list .link{
     color: var(--accent-color);
 }
 
 .button{
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    padding: 11px 34px;
+    min-width: 130px;
+   
     color: var(--secondary-text-color);
     background-color: var(--background-color);   
+   
     font-weight: 500;
     font-size: 15px;
     line-height: 1.2;
-    text-decoration: none; 
+    text-decoration: none;
+    text-align: center; 
+
 }
 .button.primary{
 color: var(--background-color);
 background-color: var(--accent-color);
+
 }
 .button.secondary{
 color: var(--accent-color);
 background-color: var(--background-color);
+border-color: var(--accent-color);
+
 }
